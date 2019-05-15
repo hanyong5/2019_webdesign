@@ -4,28 +4,41 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta charset="UTF-8">
 	<title>::하이미디어::</title>
-	<style>
-		*{padding:0;margin:0;}
-		li{list-style:none;}
-		a:link,a:visited{color:black;}
-		a{text-decoration:none}
-		.util_wrap{}
-		.util_wrap>ul{float: right;}
-		.util_wrap>ul>li{float: left;position: relative;}
-		.util_wrap>ul>li:after{content:"";display: block;width:1px;height:10px;background-color:black;position: absolute;top:7px;left:-1px;}
-		.util_wrap>ul>li:first-child:after{content:"";display: none;}
-		.util_wrap>ul>li>a{display: block;line-height:20px;padding:0 15px;}
-
-	</style>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div class="util_wrap">
-		<ul>
-			<li><a href="#">menu</a></li>
-			<li><a href="#">menu</a></li>
-			<li><a href="#">menu</a></li>
-			<li><a href="#">menu</a></li>
-		</ul>
-	</div>
+	<header id="main_header">
+		<!-- main util start -->
+		<div class="main_util">
+			<div class="util_menu clearfix">
+				<nav class="util_wrap">
+					<ul>
+						<li><a href="#">Login</a></li>
+						<li><a href="#">Join</a></li>
+						<li><a href="#">Contact us</a></li>
+						<li><a href="#">English</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<!-- main util end -->
+		<h1>하이미디어</h1>
+
+		<!-- main menu start -->
+		<div class="main_menu">
+			<nav class="menu_wrap">
+				<ul>
+					<li><a href="#">회사소개</a></li>
+					<li><a href="#">제품소개</a></li>
+					<li><a href="#">사업영역</a></li>
+					<li><a href="#">고객센터</a></li>
+					<li><a href="#">사회공헌</a></li>
+					<li><a href="#">인제채용</a></li>
+				</ul>
+			</nav>
+		</div>
+		<!-- main menu end -->
+	</header>
 </body>
 </html>

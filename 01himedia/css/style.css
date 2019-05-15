@@ -1,1 +1,9 @@
 @charset "utf-8";
+
+/*header*/
+header#main_header{}
+	div.main_util{border-bottom:1px solid #cdcdcd;}
+	div.main_util>div.util_menu{width: 908px;height:20px;background-color:skyblue;margin:0 auto;}
+	nav.util_wrap{width:300px;background-color:pink;float:right;}
+	nav.util_wrap>ul{}
+
