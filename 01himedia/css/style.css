@@ -30,15 +30,26 @@ div#visual_wrap{
 	.visual .img02{position: absolute;left:0;top:70px;}
 
 /*visual icon*/
-div#visual_icon{background-color:#eee;}
+div#visual_icon{background-color:#eee;margin-bottom:50px;}
 div#visual_icon  .icon_wrap{width: 980px;margin:0 auto;}
 div.icon_wrap li{float: left;width:20%;height:196px;}
 div.icon_wrap li:nth-child(1){background-color:#7c99b9;}
-div.icon_wrap li:nth-child(2){background-color:#7c99b9;}
-div.icon_wrap li:nth-child(3){background-color:#7c99b9;}
-div.icon_wrap li:nth-child(4){background-color:#7c99b9;}
-div.icon_wrap li:nth-child(5){background-color:#7c99b9;}
+div.icon_wrap li:nth-child(2){background-color:#4f74a1;}
+div.icon_wrap li:nth-child(3){background-color:#4b8ce0;}
+div.icon_wrap li:nth-child(4){background-color:#3db5f2;}
+div.icon_wrap li:nth-child(5){background-color:#95c8ff;}
+
+div.icon_wrap li:hover{background-color:skyblue;cursor:pointer;}
 
 div#visual_icon .card{padding:15px;}
 div#visual_icon .card img{margin:0 auto;}
 div#visual_icon .card .card-body{text-align:center;padding-top:13px;color:white;}
+
+
+/*section*/
+section#section01{width: 980px;margin:0 auto;}
+section#section01>ul{}
+section#section01>ul>li{float: left;width: 310px;margin-right:25px;}
+section#section01>ul>li:last-child{margin-right:0;}
+section#section01>ul>li>div.card>div.card-body{padding:17px;border: 1px solid #cdcdcd;border-top:none;}
+section#section01>ul>li>div.card>div.card-body>h3.card-title{margin-bottom:5px;}
