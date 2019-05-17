@@ -46,10 +46,26 @@ div#visual_icon .card img{margin:0 auto;}
 div#visual_icon .card .card-body{text-align:center;padding-top:13px;color:white;}
 
 
-/*section*/
-section#section01{width: 980px;margin:0 auto;}
+/*section01*/
+section#section01{width: 980px;margin:0 auto;margin-bottom:25px;}
 section#section01>ul{}
 section#section01>ul>li{float: left;width: 310px;margin-right:25px;}
 section#section01>ul>li:last-child{margin-right:0;}
 section#section01>ul>li>div.card>div.card-body{padding:17px;border: 1px solid #cdcdcd;border-top:none;}
 section#section01>ul>li>div.card>div.card-body>h3.card-title{margin-bottom:5px;}
+
+/*section02*/
+section#section02{width: 980px;margin:0 auto;}
+section#section02>ul{}
+section#section02>ul>li{float: left;height:165px;width: 310px;margin-right:25px;border: 1px solid #cdcdcd;overflow: hidden;}
+section#section02>ul>li:last-child{margin-right:0;}
+section#section02>ul>li>div.card{position: relative;padding:17px;}
+section#section02>ul>li>div.card>img{position: absolute;right:-15px;top:10px;}
+section#section02>ul>li>div.card>div.card-body{position: relative;width:150px;}
+section#section02>ul>li>div.card>div.card-body>h3.card-title{margin-bottom:5px;}
+section#section02>ul>li>div.card>div.card-body>.card-text{margin-bottom:5px;}
+section#section02>ul>li>div.card>div.card-body>.card-link{color:blue;font-weight:bold;}
+
+
+address{font-style:normal;}
+
