@@ -9,7 +9,13 @@
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/jquery.bxslider.js"></script>
 	<link rel="stylesheet" href="css/style.css">
-
+	<script>
+		$(document).ready(function(){
+			slider = $('.slider').bxSlider();
+			var current = slider.getCurrentSlide();
+			console.log(current);
+		});
+	</script>
 </head>
 <body>
 <header id="main_header">
@@ -26,7 +32,22 @@
 			</ul>
 		</nav>
 	</div>
-	<div class="slider_wrap"></div>
+	<div class="slider_wrap">
+		<ul class="slider">
+			<li class="first">
+				<div class="slider_txt">
+					<h3>Lorem ipsum dolor.</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, fuga!</p>
+				</div>
+			</li>
+			<li class="second">
+				<div class="slider_txt">
+					<h3>Lorem ipsum dolor.</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, fuga!</p>
+				</div>
+			</li>
+		</ul>
+	</div>
 	<div class="content"></div>
 </header>
 	
