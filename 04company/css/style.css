@@ -13,7 +13,7 @@
 
 
 /*bxslider*/
-.slider_wrap{height: 1005px;}
+.slider_wrap{}
 .slider_wrap ul li{height: 1005px;}
 .slider_wrap li.first{
 	background:url(../images/mainimg01.jpg) no-repeat center;
@@ -23,3 +23,15 @@
 	background:url(../images/mainimg02.jpg) no-repeat center;
 	background-size:cover;
 }
+
+.slider_wrap .slider_txt{
+	width: 700px;position: absolute;left:50%;margin-left:-350px;
+	_background-color:rgba(255,255,255,0.3);top:30%;color:white;text-align:center;
+	_padding:20px 20px 30px 20px;_box-shadow:0 0 10px #000;
+}
+.slider_wrap h3{font-size:3.5em;text-shadow:0px 0px 8px #000}
+.slider_wrap h3:after{
+	content:"";display: block;width: 300px;height: 3px;
+	background-color: #fff;margin: 20px auto;
+}
+.slider_wrap p{}
