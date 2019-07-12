@@ -1,5 +1,5 @@
 @charset "utf-8";
-#main_header{height: 1950px;background-color:lightgray;}
+#main_header{height: 1950px;background-color:lightgray;position: relative;}
 #header_top{
 	width:1260px;height: 50px;background-color:pink;
 	position: absolute;left:50%;margin-left:-630px;top:40px;
@@ -34,4 +34,42 @@
 	content:"";display: block;width: 300px;height: 3px;
 	background-color: #fff;margin: 20px auto;
 }
-.slider_wrap p{}
+
+/*header content*/
+
+#main_header .content{
+	width: 1260px;background-color: #fff;position: absolute;bottom:0;
+	height:1260px;left:50%;margin-left:-630px;
+}
+#main_header .content li{float: left;width: 25%;height:315px;}
+.content li.content1st{
+	background-color:#92c1d5;padding-top:50px;text-align:center;
+	color:white;font-weight:bold;
+}
+.content li.content5st{
+	background-color:#b8307c;padding-top:50px;text-align:center;
+	color:white;font-weight:bold;
+}
+.content li.content6st{
+	background-color:#413d3e;padding-top:50px;text-align:center;
+	color:white;font-weight:bold;
+}
+.content li.content7st{
+	width: 50% !important;color:white;position: relative;
+}
+
+.content li.content8st{
+	height:630px !important;position: relative;color:white;
+}
+
+
+
+
+
+
+.content .card{position: absolute;top:40px;left:40px;}
+.content .card h3:after{
+	content:"";display: block;width: 30px;height: 3px;background-color: #fff;
+	margin:20px 0;
+}
+.content .card p{font-size:2em;}
