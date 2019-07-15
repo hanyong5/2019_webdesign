@@ -12,7 +12,20 @@
 	<script>
 		$(document).ready(function(){
 			$('.slider').bxSlider();
-			$('.slider2').bxSlider();
+			
+			var  slider2Btn = $('.slider2').bxSlider({
+				pager:false,
+				controls:false,
+				auto:true,
+				mode:"fade"
+			});
+
+			$(".btn .prev").click(function(){
+				slider2Btn.goToPrevSlide();
+			});
+			$(".btn .next").click(function(){
+				slider2Btn.goToNextSlide();
+			});
 		});
 	</script>
 </head>
@@ -65,7 +78,16 @@
 
 					<li class="clearfix">
 						<div class="left">02 Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, sit.</div>
+						<div class="right"><img src="images/img01_02.jpg" alt="01"></div>
+					</li>
+					<li class="clearfix">
+						<div class="left">03 Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, sit.</div>
 						<div class="right"><img src="images/img01_01.jpg" alt="01"></div>
+					</li>
+
+					<li class="clearfix">
+						<div class="left">04 Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, sit.</div>
+						<div class="right"><img src="images/img01_02.jpg" alt="01"></div>
 					</li>
 				</ul>
 				<div class="btn">
