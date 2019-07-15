@@ -55,6 +55,20 @@
 .content li.content3st .slider2 {position: absolute;top:0;left:0;width: 630px;}
 .content li.content3st .slider2 li{width:630px !important}
 .content li.content3st .slider2 div{float: left;width: 315px;height: 315px;}
+.content li.content3st .slider2 div.left{padding-left: 33px;padding-top: 75px;}
+.content li.content3st .slider2 div.left:after{
+	content:"";border-width:20px;border-style:solid;
+	border-color:transparent transparent transparent #fff;
+	position: absolute;left:315px;top:120px;
+}
+
+.content li.content3st .btn{
+	position: absolute;left:200px;bottom:30px;
+	cursor:pointer;
+}
+.content li.content3st .btn img{float: left;width: 38px;
+	border: 1px solid #cdcdcd;display: block;
+}
 
 
 
