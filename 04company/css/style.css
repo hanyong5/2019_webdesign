@@ -38,7 +38,7 @@
 /*header content*/
 
 #main_header .content{
-	width: 1260px;background-color: #fff;position: absolute;bottom:0;
+	width: 1260px;_background-color: #fff;position: absolute;bottom:0;
 	height:1260px;left:50%;margin-left:-630px;
 }
 #main_header .content li{float: left;width: 25%;height:315px;}
